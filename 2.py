@@ -31,7 +31,6 @@ def contar_patron_en_matriz(matriz, patron):
 
 # Función principal
 def main():
-    # Solicitar la dimensión de la matriz
     while True:
         n = int(input("Ingrese la dimensión de la matriz cuadrada (mayor o igual a 3): "))
         if n >= 3:
